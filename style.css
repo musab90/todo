@@ -71,3 +71,53 @@ form .btn{
 .output-ui input::placeholder{
     padding-left: 5px;
 }
+
+
+/* media quers*/
+
+
+@media screen and (max-width:320px) {
+
+    form{
+        position: absolute;
+        left: 35%;
+        top: 15%;
+        bottom: 10%;
+    }
+    h3{
+        margin-right: 30%;
+        font-size: 1.1rem;
+    }
+
+    
+}
+@media screen and (max-width:375px) {
+
+    form{
+        position: absolute;
+        left: 35%;
+        top: 15%;
+        bottom: 10%;
+    }
+    h3{
+        margin-right: 30%;
+        font-size: 1.1rem;
+    }
+
+    
+}
+@media screen and (max-width:425px) {
+
+    form{
+        position: absolute;
+        left: 45%;
+        top: 9%;
+        margin-bottom: 20%;
+    }
+    h3{
+        margin-right: 30%;
+        font-size: 1.1rem;
+    }
+
+    
+}
