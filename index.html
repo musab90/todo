@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+
+        <div class="input-ui">
+            <h3>Todo-List</h3>
+            <form>
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Task name" class="input-task">
+                <input type="submit" value="Add" class="btn">
+            </form>
+        </div>
+
+        <div class="output-ui">
+            <input type="text" name="filter" class="filter" placeholder="Search task">
+            <i class="fas fa-search"></i>
+
+            <ul class="tasks">
+                <li class="task">
+                    text
+                    <div class="icons">
+                        <a href="#" class="delet">🔴</a>
+                        <a href="#" class="check">✅</a>
+                    </div>
+                </li>
+                <div class="msg">
+                <p>
+                    Start adding tasks 🖐🏾
+                </p>
+            </div>
+            </ul>
+            <a href="#" class="clear">Clear</a>            
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
